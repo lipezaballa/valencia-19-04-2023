@@ -5,10 +5,8 @@
     height: 100%;
 }
 
-.placeholder1 {
+.card {
     flex-grow: 1;
-    align-items: center;
-    text-align: center;
     height: 100%;
     font-size: large;
 
@@ -18,7 +16,7 @@
     align-items: center;
 }
 
-.placeholder1:hover {
+.card:hover {
     background-color: whitesmoke;
 }
 
