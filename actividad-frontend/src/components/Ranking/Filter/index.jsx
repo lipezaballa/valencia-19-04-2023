@@ -19,7 +19,7 @@ export const Filter = () => {
             <div className="filterDiv">
                 <div className="type">
                     <label>Tipo</label>
-                    <div style={{ width: "200px" }}>
+                    <div style={{ width: "5rem" }}>
                         <Dropdown
                             options={options}
                             onChange={(date) => {
@@ -29,23 +29,28 @@ export const Filter = () => {
                         />
                     </div>
                 </div>
-                <label>Fecha inicio</label>
-                <DatePicker
-                    selected={finishDate}
-                    onChange={(date) => {
-                        setFinishDate(date);
-                        filterQuery();
-                    }}
-                />
-                <label>Fecha fin</label>
+                <div className="type">
+                    <label>Fecha inicio</label>
+                    <DatePicker
+                        selected={finishDate}
+                        onChange={(date) => {
+                            setFinishDate(date);
+                            filterQuery();
+                        }}
+                    />
+                </div>
 
-                <DatePicker
-                    selected={startDate}
-                    onChange={(date) => {
-                        setStartDate(date);
-                        filterQuery();
-                    }}
-                />
+                <div className="type">
+                    <label>Fecha fin</label>
+
+                    <DatePicker
+                        selected={startDate}
+                        onChange={(date) => {
+                            setStartDate(date);
+                            filterQuery();
+                        }}
+                    />
+                </div>
             </div>
         </div>
     );
