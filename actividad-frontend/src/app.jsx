@@ -1,5 +1,6 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
+import { Filter } from "./components/Ranking/Filter";
 import "./app.css";
 import { Summary } from "./components/summary/summary";
 
