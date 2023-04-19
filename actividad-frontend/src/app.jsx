@@ -14,7 +14,7 @@ function App() {
                 </div>
                 <div className="ranking">
                     {/* TODO: Exercise 3 - Create the ranking component */}
-                    <Placeholder />
+                    <Filter />
                 </div>
             </div>
         </div>
