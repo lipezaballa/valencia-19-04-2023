@@ -26,5 +26,9 @@
   },
   "msw": {
     "workerDirectory": "public"
+  },
+  "dependencies": {
+    "react-datepicker": "^4.11.0",
+    "react-dropdown": "^1.11.0"
   }
 }
